@@ -12,7 +12,7 @@ pipeline {
         stage('Run Python Program') {
             steps {
                 sh 'python3 --version'
-                sh 'echo 12 | python3 main.py'
+                sh 'echo 12 | python3 readme.py' 
             }
         }
     }
